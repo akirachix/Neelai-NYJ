@@ -1,0 +1,174 @@
+/* body{
+    background-color: blue;
+} */
+.videos{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;*/
+     margin-top: 3%; 
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Keesi p{
+    text-decoration: none;
+    color: #eee9e9;
+
+}
+.Yiamat p{
+    text-decoration: none;
+    color: #eee9e9; 
+}
+.Laura p{
+    text-decoration: none;
+    color: #eee9e9;
+}
+.Wanja p{
+    text-decoration: none;
+    color: #eee9e9;
+}
+.Amanda p{
+    text-decoration: none;
+    color: #eee9e9; 
+}
+
+
+.videos img{
+    width: 350px;
+    height: 200px;
+}
+.Laura{
+    margin-top: 10%;
+    border-radius: 50%;
+}
+Link button{
+    padding: 8px 16px;
+    margin-right:50% ;
+}
+body{
+    background-color: rgb(37, 151, 151);
+}
+
+@media screen and (min-width:280px) and (max-width:400px) {
+    .videos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .Keesi p{
+        text-decoration: none;
+        color: #eee9e9;
+    
+    }
+    .Yiamat p{
+        text-decoration: none;
+        color: #eee9e9; 
+    }
+    .Laura p{
+        text-decoration: none;
+        color: #eee9e9;
+    }
+    .Wanja p{
+        text-decoration: none;
+        color: #eee9e9;
+    }
+    .Amanda p{ 
+        text-decoration: none;
+        color: #eee9e9; 
+    }
+    
+    
+    .videos img{
+        width: 200px;
+        height: 100px;
+    }
+    .Laura{
+        margin-top: 10%;
+    }
+    Link button{
+        padding: 8px 16px;
+    }
+   
+}
+@media screen and (min-width:401px) and (max-width:600px) {
+    .videos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .Keesi p{
+        text-decoration: none;
+        color: #eee9e9;
+    
+    }
+    .Yiamat p{
+        text-decoration: none;
+        color: #eee9e9; 
+    }
+    .Laura p{
+        text-decoration: none;
+        color: #eee9e9;
+    }
+    .Wanja p{
+        text-decoration: none;
+        color: #eee9e9;
+    }
+    .Amanda p{ 
+        text-decoration: none;
+        color: #eee9e9; 
+    }
+    
+    
+    .videos img{
+        width: 200px;
+        height: 100px;
+    }
+    .Laura{
+        margin-top: 10%;
+    }
+    Link button{
+        padding: 8px 16px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:920px) {
+    .videos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .Keesi p{
+        text-decoration: none;
+        color: #eee9e9;
+    
+    }
+    .Yiamat p{
+        text-decoration: none;
+        color: #eee9e9; 
+    }
+    .Laura p{
+        text-decoration: none;
+        color: #eee9e9;
+    }
+    .Wanja p{
+        text-decoration: none;
+        color: #eee9e9;
+    }
+    .Amanda p{ 
+        text-decoration: none;
+        color: #eee9e9; 
+    }
+    
+    
+    .videos img{
+        width: 250px;
+        height: 150px;
+    }
+    .Laura{
+        margin-top: 10%;
+    }
+    Link button{
+        padding: 8px 16px;
+    }
+   
+}
+
+
