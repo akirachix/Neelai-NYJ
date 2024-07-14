@@ -1,0 +1,391 @@
+.mainImage{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.portfolio{
+    font-size: x-large;
+    
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(30, 140, 243);
+    padding: 10px 30px;
+    color: white;
+    border: none;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(88, 116, 90) ;
+    margin-top: 8%;
+    color: white;
+}
+.multimedia{
+    font-style: italic;
+    margin-bottom: 20%;
+    
+}
+.footertext{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 11%;
+}
+.resumes{
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.text-on-image {
+    position: absolute;
+    top: 20%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%); 
+    margin-left: 20%;
+}
+.podtext{
+  font-weight: 100;
+  font-size: 30px;
+}
+.pod{
+ font-weight: 900;
+ font-size: 48px;
+}
+.portfolio{
+    margin-bottom: 7%;
+}
+@media screen and (min-width:280px) and (max-width:400px) {
+    .mainImage{
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+    }
+   .portfolio{
+        font-size: x-large;
+        
+    }
+    button{
+        border-radius: 20px;
+        background-color: rgb(30, 140, 243);
+        padding: 10px 30px;
+        color: white;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color:rgb(88, 116, 90) ;
+        margin-top: 8%;
+        color: white;
+    }
+    .multimedia{
+        font-style: italic;
+        margin-bottom: 8%;
+        
+    }
+    .footertext{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-bottom: 2%;
+        margin-left: 17%;
+    }
+    .resumes{
+        margin-top: 10%;
+        margin-bottom: 7%;
+        font-size: 20px;
+        
+    }
+    
+    .text-on-image {
+        position: absolute;
+        top: 14%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        margin-left: 20%;
+        
+    }
+    .podtext{
+      font-weight: 100;
+      font-size: 10px;
+    }
+    .pod{
+     font-weight: 700;
+     font-size: 15px;
+    }
+    .portfolio{
+        margin-bottom: 7%;
+        font-size: x-small;
+    }
+}
+@media screen and (width:280px) {
+    .mainImage{
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+    }
+   .portfolio{
+        font-size: x-large;
+        
+    }
+    button{
+        border-radius: 20px;
+        background-color: rgb(30, 140, 243);
+        padding: 5px 25px;
+        color: white;
+        border: none;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color:rgb(88, 116, 90) ;
+        margin-top: 8%;
+        color: white;
+    }
+    .multimedia{
+        font-style: italic;
+        margin-bottom: 5%;
+        
+    }
+    .footertext{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-bottom: 2%;
+        margin-left: 8%;
+    }
+    .resumes{
+        margin-top: 10%;
+        margin-bottom: 7%;
+        font-size: small;
+        
+    }
+    
+    .text-on-image {
+        position: absolute;
+        top: 13%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        margin-left: 20%;
+        
+    }
+    .podtext{
+      font-weight: 200;
+      font-size: 8px;
+    }
+    .pod{
+     font-weight: 700;
+     font-size: 10px;
+     margin-right: 20%;
+    }
+    .portfolio{
+        margin-bottom: 7%;
+        font-size: xx-small;
+    }
+}
+@media screen and (min-width:401px) and (max-width:600px) {
+    .mainImage{
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+   .portfolio{
+        font-size: x-large;
+        
+    }
+    button{
+        border-radius: 20px;
+        background-color: rgb(30, 140, 243);
+        padding: 10px 30px;
+        color: white;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color:rgb(88, 116, 90) ;
+        margin-top: 8%;
+        color: white;
+    }
+    .multimedia{
+        font-style: italic;
+        margin-bottom: 5%;
+        
+    }
+    .footertext{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-bottom: 2%;
+        margin-left: 17%;
+    }
+    .resumes{
+        margin-top: 10%;
+        margin-bottom: 7%;
+        font-size: 20px;
+        
+    }
+    
+    .text-on-image {
+        position: absolute;
+        top: 12%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        margin-left: 20%;
+        
+    }
+    .podtext{
+      font-weight: 100;
+      font-size: 10px;
+    }
+    .pod{
+     font-weight: 700;
+     font-size: 15px;
+    }
+    .portfolio{
+        margin-bottom: 7%;
+        font-size: x-small;
+    }
+}
+@media screen and (width:540px) {
+    .mainImage{
+        width: 100%;
+    }
+   .portfolio{
+        font-size: x-large;
+        
+    }
+    button{
+        border-radius: 20px;
+        background-color: rgb(30, 140, 243);
+        padding: 10px 30px;
+        color: white;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color:rgb(88, 116, 90) ;
+        margin-top: 8%;
+        color: white;
+    }
+    .multimedia{
+        font-style: italic;
+        margin-bottom: 20%;
+        
+    }
+    .footertext{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-bottom: 11%;
+        margin-left: 5%;
+    }
+    .resumes{
+        margin-top: 10%;
+        margin-bottom: 7%;
+        font-size: 20px;
+        
+    }
+    
+    .text-on-image {
+        position: absolute;
+        top: 20%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        margin-left: 20%;
+        
+    }
+    .podtext{
+      font-weight: 100;
+      font-size: 15px;
+    }
+    .pod{
+     font-weight: 900;
+     font-size: 25px;
+    }
+    .portfolio{
+        margin-bottom: 7%;
+        font-size: 13px;
+    }
+    .multi{
+        margin-right: 10%;
+    }
+    .contact{
+        margin-right: 5%;
+    }
+    
+}
+@media screen and (min-width:601px) and (max-width:920px) {
+    .mainImage{
+        width: 100%;
+    }
+   .portfolio{
+        font-size: x-large;
+        
+    }
+    button{
+        border-radius: 20px;
+        background-color: rgb(30, 140, 243);
+        padding: 10px 30px;
+        color: white;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color:rgb(88, 116, 90) ;
+        margin-top: 8%;
+        color: white;
+    }
+    .multimedia{
+        font-style: italic;
+        margin-bottom: 20%;
+
+        
+    }
+    .footertext{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-bottom: 11%;
+        margin-left: 15%;
+    }
+    .resumes{
+        margin-top: 10%;
+        margin-bottom: 7%;
+        font-size: 20px;
+        
+    }
+    
+    .text-on-image {
+        position: absolute;
+        top: 20%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        margin-left: 20%;
+        
+    }
+    .podtext{
+      font-weight: 100;
+      font-size: 15px;
+    }
+    .pod{
+     font-weight: 900;
+     font-size: 25px;
+    }
+    .portfolio{
+        margin-bottom: 7%;
+        font-size: 13px;
+    }
+    .multi{
+        margin-right: 25%;
+    }
+    .contact{
+        margin-right: 7%;
+    }
+}
+
+
